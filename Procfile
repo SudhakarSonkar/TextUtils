@@ -1,1 +1,1 @@
-web: gunicorn TextUtils.wsgi:application
+web: gunicorn mysite.wsgi:application
