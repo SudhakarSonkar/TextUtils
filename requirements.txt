@@ -1,0 +1,6 @@
+Django>=4.2,<5.0
+gunicorn  # for deployment (especially if you're using Render or Heroku)
+whitenoise  # to serve static files in production
+psycopg2-binary  # if using PostgreSQL; skip if using SQLite
+dj-database-url  # helps manage database config from environment variables
+python-dotenv  # for loading environment variables
